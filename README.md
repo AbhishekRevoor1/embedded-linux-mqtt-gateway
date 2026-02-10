@@ -708,16 +708,12 @@ mount | grep "on / "
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome! Feel free to check the [issues page](https://github.com/yourusername/embedded-linux-mqtt-gateway/issues).
-
 ## 👤 Author
 
-**Abhishek Revoor**
+**Abhishek Abhishek**
 - Email: work.abhishek964@gmail.com
-- LinkedIn: [Your LinkedIn Profile]
-- GitHub: [@yourusername](https://github.com/yourusername)
+- LinkedIn: [https://www.linkedin.com/in/abhishek-revoor/]
+- GitHub: [https://github.com/AbhishekRevoor1]
 
 ## 🙏 Acknowledgments
 
