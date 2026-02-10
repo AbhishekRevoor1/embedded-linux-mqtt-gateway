@@ -1,0 +1,21 @@
+#!/bin/sh
+
+case "$1" in
+  start)
+    echo "Starting custom services..."
+    /data/startup.sh
+    
+    # Start MQTT service
+    /data/mqtt_service.sh &
+    ;;
+  stop)
+    echo "Stopping custom services..."
+    killall mqtt_publisher
+    killall mosquitto
+    ;;
+  *)
+    echo "Usage: $0 {start|stop}"
+    exit 1
+esac
+
+exit 0

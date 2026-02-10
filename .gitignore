@@ -1,0 +1,45 @@
+# Buildroot output directories
+output/
+build/
+dl/
+host/
+staging/
+target/
+images/
+
+# Compiled binaries
+*.o
+*.elf
+*.bin
+*.so
+*.a
+mqtt_publisher
+
+# Temporary files
+*.swp
+*.swo
+*~
+.DS_Store
+
+# IDE files
+.vscode/
+.idea/
+*.code-workspace
+
+# SD card images (too large for git)
+*.img
+*.iso
+
+# Logs
+*.log
+
+# Secrets
+**/wpa_supplicant.conf
+**/authorized_keys
+*.pem
+*.key
+!*_example.conf
+
+# Python
+__pycache__/
+*.pyc
