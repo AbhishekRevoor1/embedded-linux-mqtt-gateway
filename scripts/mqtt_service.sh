@@ -1,11 +1,11 @@
 #!/bin/sh
-# Wait for network to be ready
+# Wait for network
 sleep 10
 
-# Start MQTT broker
-mosquitto -d
+# Start MQTT broker with config file
+mosquitto -d -c /etc/mosquitto/mosquitto.conf
 
-# Wait for broker to start
+# Wait for broker
 sleep 2
 
 # Start MQTT publisher
